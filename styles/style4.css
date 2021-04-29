@@ -1,0 +1,20 @@
+.section-1 {
+  width: 400px;
+  background-color: #008080;
+}
+
+.section-2 {
+  background-color: #004889;
+  width: 50px;
+}
+
+.lucas {
+position: relative;
+top: 100px;
+}
+
+.press {
+	position: relative;
+	left: 400px;
+}
+

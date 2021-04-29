@@ -1,0 +1,179 @@
+body{
+    
+    image-rendering:-moz-crisp-edges; 
+    margin: 0;
+ 
+}
+
+#main-head {
+    background-color: lightsteelblue;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#main-head {
+    background-color: dimgray;
+    color: black;
+    padding: 10px;
+}
+
+
+#mode{
+
+    cursor:pointer;
+
+}
+
+#Navbar {
+    background-color: lightslategrey;
+}
+
+    #Navbar ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    #Navbar li {
+        display: inline;
+        padding: 0px;
+    }
+
+    #Navbar a {
+        color: #2c333a;
+        text-decoration: none;
+        font-size: 18px;
+        word-spacing: 20px;
+        padding: 30px;
+        width: 100%;
+        white-space: nowrap;
+        float: initial;
+    }
+
+ #Navbar a:hover {
+      color: black;
+      background-color: white;
+ }
+
+.Text{
+    
+    width: 600px;
+    text-align: left;
+    white-space: nowrap;
+    padding-left: 0;
+    
+}
+.Text ul{
+    padding: 0px;
+    
+}
+
+.Text li{
+    
+    padding: 0;
+    
+}
+
+.Text a{
+    
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    margin: 0;
+    
+}
+
+.Text a:hover {
+ 
+    background-color: lightslategray;
+}
+
+
+.flex-container a {
+    padding-top: 20px;
+    font-size: 18px;
+    
+}
+
+.Home li:hover {
+    background-color: lightslategrey;
+    background-size: 80px;
+}
+
+
+.Home img:hover {
+    
+    background-color: lightslategrey;
+    background-size: 80px;
+   
+}
+
+
+
+
+
+.House a{
+    display:inline-block;
+}
+
+
+
+.House {
+    width: 90px;
+    height: 90px;
+    display:inline;
+    vertical-align: bottom;
+     
+}
+
+
+.Home img:hover {
+    
+    background-color: lightslategrey;
+    background-size: 80px;
+
+    
+}
+
+
+.container{
+    
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+
+.Lucas{
+    margin-left: 20px;
+    width:200px;
+    height:200px;
+}
+
+.imate p{ 
+
+    text-align:center;
+
+}
+
+.People a{
+    margin:45px;
+    text-decoration: underline;
+    color: black;
+}
+
+.People {
+    list-style:none;
+}
+
+.People li{
+    
+    list-style: none;
+    text-decoration: none;
+}
+

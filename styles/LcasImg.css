@@ -1,0 +1,49 @@
+html {
+    image-rendering: crisp-edges;
+    font-family: 'Philosopher';
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main-head {
+    background-color: dimgray;
+    color: black;
+    padding: 10px;
+}
+
+#Navbar {
+    background-color: lightslategrey;
+}
+
+#Navbar ul {
+     padding: 0;
+     list-style: none;
+}
+
+#Navbar li {
+     display: inline;
+     padding: 0px;
+}
+
+#Navbar a {
+      color: #2c333a;
+      text-decoration: none;
+      font-size: 18px;
+      word-spacing: 20px;
+      padding: 30px;
+      width: 100%;
+      white-space: nowrap;
+      float: initial;
+}
+
+#Navbar a:hover {
+      color: black;
+      background-color: white;
+}
+
+.container{
+    overflow: hidden;
+}
