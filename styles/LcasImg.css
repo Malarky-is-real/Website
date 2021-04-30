@@ -1,5 +1,5 @@
 html {
-    image-rendering: crisp-edges;
+    image-rendering:  crisp-edges;
     font-family: 'Philosopher';
 }
 
@@ -46,4 +46,8 @@ body {
 
 .container{
     overflow: hidden;
+}
+
+#about{
+    background: white;
 }
