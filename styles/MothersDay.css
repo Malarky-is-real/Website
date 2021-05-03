@@ -8,15 +8,21 @@ body{
 
 @keyframes introanim {
     0% {
-        top: -100%;
+        transform: translateY(-100%);
+    }
+    
+    60%{
+        transform: translateY(30%);
     }
 
     100% {
-        top: 0px;
+        transform: translateY(0);
     }
 }
 
 
 .int {
-    animation: introanim 5s infinite
+    
+    animation: 1s ease-out 0s 1 introanim;
+    
 }
