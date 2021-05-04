@@ -30,6 +30,8 @@ body{
 
 
 
+
+
 .int  {
     background-color: antiquewhite;
     animation: 3s ease-out 0s 1 introanim;
@@ -44,7 +46,8 @@ body{
     
     width:378px;
     height:504px; 
-    padding-bottom:10px;
-
+    padding-bottom:20px;
 
 }
+
+
