@@ -2,7 +2,7 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #e6b0af;
+    
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IdJemNnwwoGywfV-imtHIAHaEo%26pid%3DApi&f=1');
 }
 
@@ -28,17 +28,37 @@ body{
     }
 }
 
+@keyframes secoanim {
+    0% {
+        opacity:0;
+        transform: translateX(-100%);
+    }
+
+    60% {
+        
+        opacity: 20;
+        transform: translateX(10%);
+    }
+
+    100% {
+        opacity:100;
+        transform: translateX(0);
+    }
+}
 
 
 
+
+#intro{
+    padding-bottom: 200px;
+}
 
 .int  {
+    
     background-color: antiquewhite;
     animation: 3s ease-out 0s 1 introanim;
     border: solid;
     display: inline-block;
-    
-    
 
 }
 
@@ -50,4 +70,11 @@ body{
 
 }
 
+.seco {
+    opacity: 0;
+    background-color: antiquewhite;
+    animation: 3s ease-out 5s 1 secoanim;
+    border: solid;
+    display: inline-block;
+}
 
