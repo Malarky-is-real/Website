@@ -41,8 +41,10 @@ body{
     }
 
     100% {
+
         opacity:100;
         transform: translateX(0);
+
     }
 }
 
@@ -50,7 +52,9 @@ body{
 
 
 #intro{
+   
     padding-bottom: 200px;
+
 }
 
 .int  {
@@ -71,10 +75,12 @@ body{
 }
 
 .seco {
+    
     opacity: 0;
     background-color: antiquewhite;
-    animation: 3s ease-out 5s 1 secoanim;
+    animation: 3s ease-out 2s 1  normal forwards secoanim;
     border: solid;
     display: inline-block;
+
 }
 
