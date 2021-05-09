@@ -1,8 +1,10 @@
 html {
+    image-resolution:crisp-edges;
     width: 100%;
     margin: 0;
     padding: 0;
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IdJemNnwwoGywfV-imtHIAHaEo%26pid%3DApi&f=1');
+    background-size:  cover;
 }
 
 body{
@@ -10,6 +12,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size:20px;
     text-align:center;
+    
 
 }
 
@@ -77,8 +80,8 @@ body{
 
 .int img{
     
-    width:378px;
-    height:504px; 
+    width:682px;
+    height:682px;
     padding-bottom:20px;
 
 }
@@ -94,3 +97,8 @@ body{
 
 }
 
+.secoimg{
+
+    width: 281px;
+    height: 512px;
+}
