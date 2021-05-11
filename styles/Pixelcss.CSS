@@ -2,7 +2,7 @@ body{
     
     image-rendering:-moz-crisp-edges; 
     margin: 0;
- 
+   
 }
 
 #main-head {
@@ -177,3 +177,27 @@ body{
     text-decoration: none;
 }
 
+#sections {
+    
+    float: left;
+    width: 150px;
+    padding: 0px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.anim {
+    position:absolute;
+    width:227px;
+    height:143px;
+    background: transparent url("file:///C:/Users/Anthony/Desktop/Website/web-projects/test-site/images/animimg.png") 0 0;
+    transform: translate(300px, -194px);
+    animation: anim1 3s steps(20) infinite;
+}
+
+@keyframes anim1
+{
+    100%{
+        background-position: -4540px, 0
+    }
+}
