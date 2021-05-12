@@ -1,0 +1,104 @@
+html {
+    image-resolution:crisp-edges;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.IdJemNnwwoGywfV-imtHIAHaEo%26pid%3DApi&f=1');
+    background-size:  cover;
+}
+
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-align:center;
+    
+
+}
+
+@keyframes introanim {
+    
+    0% {
+        
+        transform: translateY(-100%);
+    
+    }
+    
+    60%{
+       
+        transform: translateY(10%);
+    
+    }
+
+    100% {
+        
+        transform: translateY(0);
+    
+    }
+
+}
+
+@keyframes secoanim {
+    
+    0% {
+        opacity:0;
+        transform: translateX(-100%);
+    }
+
+    60% {
+        
+        opacity: 20;
+        transform: translateX(10%);
+    }
+
+    100% {
+
+        opacity:100;
+        transform: translateX(0);
+
+    }
+
+}
+
+
+
+
+#intro{
+   
+    padding-bottom: 200px;
+
+}
+
+.int  {
+    
+    background-color: antiquewhite;
+    animation: 3s ease-out 0s 1 introanim;
+    border: solid;
+    display: inline-block;
+
+}
+
+.int img{
+    
+    width:682px;
+    height:682px;
+    padding-bottom:20px;
+
+}
+
+.seco {
+    
+    opacity: 0;
+    background-color: antiquewhite;
+    animation: 3s ease-out 2s 1  normal forwards secoanim;
+    border: solid;
+    display: inline-block;
+    width:800px;
+
+}
+
+.secoimg{
+
+    width: 281px;
+    height: 512px;
+}

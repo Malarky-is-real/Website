@@ -1,0 +1,81 @@
+[33mcommit 64b71fec1b0ed63fd37adacbdae7b316ff1f4f73[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Wed May 5 20:57:57 2021 -0700
+
+    added more stuff
+
+[33mcommit a1354c684641e279addc02c5c5269788383d17d5[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 22:26:35 2021 -0700
+
+    update to lucasimgs
+
+[33mcommit fc7b016e124d3769408495c187a26032b939ebeb[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 22:14:45 2021 -0700
+
+    Overhaul of LucasImgs
+
+[33mcommit 7bd2c9a498ef6913162ce81ba617a7a0928ec1f6[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 21:14:30 2021 -0700
+
+    update
+
+[33mcommit 72e2bc673e849a3815cea8ec609bccf0b701736b[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 21:12:49 2021 -0700
+
+    updated Lucas imgs
+
+[33mcommit 622b2046ed6c72729cb8bf10d2f4d3c054c1234c[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 19:01:07 2021 -0700
+
+    updated LucasImgs and its css
+    
+    as
+
+[33mcommit 476a87be9d6d14af71bed20cebb2a1bb43d7a2db[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 18:37:35 2021 -0700
+
+    updated style sheets
+
+[33mcommit d701db0d7959956e7755fc86d9d6e0ad2bd5481b[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:36:37 2021 -0700
+
+    updated readme
+
+[33mcommit f994ff773f69f4ef3b7c57e597a5fcf25f5c6e8f[m
+Merge: 9eec76b 9ad0fac
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:35:07 2021 -0700
+
+    Merge branch 'login'
+    Merging login with master
+
+[33mcommit 9eec76b40ce0d51068e536f59cbf778fa14bd0cb[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:33:29 2021 -0700
+
+    read me is added
+
+[33mcommit 9ad0fac66a92cdee4891cd0ccac622073f11e829[m[33m ([m[1;32mlogin[m[33m)[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:23:57 2021 -0700
+
+    login form
+
+[33mcommit 1732ed23a458e41f0d75423f895b64cebc13473d[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:13:25 2021 -0700
+
+    another change
+
+[33mcommit 17bbe5a79de484cfebd3e22d5b140de23108c961[m
+Author: Anthony Estrella <tatsmalarky@gmail.com>
+Date:   Thu Apr 29 16:03:37 2021 -0700
+
+     Initial commit

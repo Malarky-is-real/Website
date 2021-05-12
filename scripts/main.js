@@ -33,6 +33,7 @@ document.getElementById('Dark').onclick = function level() {
         document.getElementById('Navbar').style = "color: white";
         document.getElementById('List').style = "color: black";
         document.getElementById('links').style = "color: black";
+        document.getElementById('Dark').innerHTML = "Dark"
    
     }
 
@@ -44,7 +45,7 @@ document.getElementById('Dark').onclick = function level() {
         document.getElementById('Navbar').style = "color: #696969";
         document.getElementById('List').style = "color: #696969";
         document.getElementById('links').style = "color:  #696969";
-     
+        document.getElementById('Dark').innerHTML = "Light";
         
     }
 
