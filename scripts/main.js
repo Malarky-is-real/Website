@@ -28,6 +28,9 @@ document.getElementById('Dark').onclick = function level() {
     if (document.getElementById('Dark').onclick && day === true) {
         
         document.getElementById('every').style = "Background-Color: white";
+        document.getElementById('row').style = "Background-Color: white";
+        document.getElementById('main').style = "Background-Color: white";
+        document.getElementById('side').style = "Background-Color: white";
         document.getElementById('AboutSec').style = "color: black";
         document.getElementById('end').style = "color: black";
         document.getElementById('Navbar').style = "color: white";
@@ -40,11 +43,15 @@ document.getElementById('Dark').onclick = function level() {
     if (document.getElementById('Dark').onclick && day === false) {
 
         document.getElementById('every').style = "Background-Color: black";
+        document.getElementById('row').style = "Background-Color: black";
+        document.getElementById('side').style = "Background-Color: black";
+        document.getElementById('main').style = "Background-Color: black";
+        document.getElementById('info').style = "color: #696969";
         document.getElementById('AboutSec').style = "color: #696969";
         document.getElementById('end').style = "color: #696969";
         document.getElementById('Navbar').style = "color: #696969";
         document.getElementById('List').style = "color: #696969";
-        document.getElementById('links').style = "color:  #696969";
+        document.getElementById('links').style = "color: #696969";
         document.getElementById('Dark').innerHTML = "Light";
         
     }
