@@ -20,6 +20,11 @@ testalert(11);
  */
 
 
+
+var d = new Date();
+document.getElementById("date").innerHTML = d.getDate();
+
+
 let day = true;
 document.getElementById('Dark').onclick = function level() {
     
@@ -36,7 +41,7 @@ document.getElementById('Dark').onclick = function level() {
         document.getElementById('Navbar').style = "color: white";
         document.getElementById('List').style = "color: black";
         document.getElementById('links').style = "color: black";
-        document.getElementById('Dark').innerHTML = "Dark"
+        document.getElementById('Dark').innerHTML = "Dark";
    
     }
 
@@ -45,6 +50,7 @@ document.getElementById('Dark').onclick = function level() {
         document.getElementById('every').style = "Background-Color: black";
         document.getElementById('row').style = "Background-Color: black";
         document.getElementById('side').style = "Background-Color: black";
+        document.getElementById('Navbar').style = "background-color: lightslategrey";
         document.getElementById('main').style = "Background-Color: black";
         document.getElementById('info').style = "color: #696969";
         document.getElementById('AboutSec').style = "color: #696969";
