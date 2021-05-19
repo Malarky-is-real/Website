@@ -19,23 +19,60 @@ document.getElementById('Dark').onclick = function testalert(num)
 testalert(11);
  */
 
-
+//Date
 
 var d = new Date();
-document.getElementById("date").innerHTML = d.getDate();
+document.getElementById("date").innerHTML = d.getDay();
 
 
-let day = true;
+
+if (d.getDay() == 1) {
+    document.getElementById("date").innerHTML = "Monday";
+
+}
+
+if (d.getDay() == 2) {
+    document.getElementById("date").innerHTML = "Tuesday";
+
+}
+
+if (d.getDay() == 3) {
+    document.getElementById("date").innerHTML = "Wednesday";
+
+}
+
+if (d.getDay() == 4) {
+    document.getElementById("date").innerHTML = "Thursday";
+
+}
+
+if (d.getDay() == 5) {
+    document.getElementById("date").innerHTML = "Los Panchos Friday!";
+
+}
+
+if (d.getDay() == 6) {
+    document.getElementById("date").innerHTML = "Saturday";
+
+}
+
+if (d.getDay() == 7) {
+    document.getElementById("date").innerHTML = "Sunday";
+
+}
+
+// Night Mode
+let mode = true;
 document.getElementById('Dark').onclick = function level() {
     
-    console.log(day)
-    day = !day;
-    if (document.getElementById('Dark').onclick && day === true) {
+    console.log(mode)
+    mode = !mode;
+    if (document.getElementById('Dark').onclick && mode === true) {
         
         document.getElementById('every').style = "Background-Color: white";
         document.getElementById('row').style = "Background-Color: white";
         document.getElementById('main').style = "Background-Color: white";
-        document.getElementById('side').style = "Background-Color: white";
+        document.getElementById('side').style = "Background-Color: #f1f1f1";
         document.getElementById('AboutSec').style = "color: black";
         document.getElementById('info').style = "color: black";
         document.getElementById('Navbar').style = "color: white";
@@ -45,7 +82,7 @@ document.getElementById('Dark').onclick = function level() {
    
     }
 
-    if (document.getElementById('Dark').onclick && day === false) {
+    if (document.getElementById('Dark').onclick && mode === false) {
 
         document.getElementById('every').style = "Background-Color: black";
         document.getElementById('row').style = "Background-Color: black";
