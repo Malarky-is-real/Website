@@ -46,7 +46,7 @@ document.getElementById('Dark').onclick = function level() {
 
         document.getElementById('every').style = "Background-Color: black";
         document.getElementById('row').style = "Background-Color: black";
-        document.getElementById('side').style = "Background-Color: black";
+        document.getElementById('side').style = "Background-Color: #1B1B1B";
         document.getElementById('Navbar').style = "background-color: lightslategrey";
         document.getElementById('main').style = "Background-Color: black";
         document.getElementById('info').style = "color: #696969";
@@ -64,10 +64,10 @@ document.getElementById('Dark').onclick = function level() {
 //Date
 
 var a = new Date();
-console.log(a.getHours())
+console.log(a.getHours());
 
 if (and = (a.getHours() >= 0 && a.getHours() <= 6)) {
-    console.log('night')
+    console.log('night');
     document.getElementById('every').style = "Background-Color: black";
     document.getElementById('row').style = "Background-Color: black";
     document.getElementById('side').style = "Background-Color: black";
@@ -80,12 +80,12 @@ if (and = (a.getHours() >= 0 && a.getHours() <= 6)) {
     document.getElementById('List').style = "color: #696969";
     document.getElementById('links').style = "color: #696969";
     document.getElementById('Dark').innerHTML = "Light";
-    mode = false
+    mode = false;
 }
 
 else {
 
-    console.log('day')
+    console.log('day');
     document.getElementById('every').style = "Background-Color: white";
     document.getElementById('row').style = "Background-Color: white";
     document.getElementById('main').style = "Background-Color: white";
@@ -96,7 +96,7 @@ else {
     document.getElementById('List').style = "color: black";
     document.getElementById('links').style = "color: black";
     document.getElementById('Dark').innerHTML = "Dark";
-    mode = true
+    mode = true;
 
 
 }
@@ -142,3 +142,5 @@ if (d.getDay() == 7) {
     document.getElementById("date").innerHTML = "Sunday";
 
 }
+
+
