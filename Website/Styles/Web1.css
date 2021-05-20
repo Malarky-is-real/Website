@@ -1,0 +1,106 @@
+
+body{
+
+
+    margin: 0;
+
+    padding: 0;
+}
+
+#time{
+
+    float:right;
+    margin-left: 400px;
+}
+
+#Main-head{
+
+    background-color:black;
+
+    color: white;
+
+    text-align:center;
+
+    padding: 16px 16px;
+
+
+    margin-top: 0;
+
+
+    margin-bottom: 0;
+
+
+}
+
+.container {
+
+    overflow:hidden;
+
+
+    width: 100%;
+}
+/* Navagation */
+.Classes{
+
+    background-color: grey;
+
+}
+
+.Classes ul{
+
+    padding: 0;
+
+}
+
+
+.Classes a{
+
+    text-decoration:none;
+    
+    float: left;
+
+    color: white;
+
+    padding: 16px 16px;
+
+    padding-bottom: 17px;
+
+}
+
+.Classes a:hover{
+    background-color: black;
+}
+
+#time{
+    color:black;
+    padding: 16px;
+}
+
+/* Header */
+
+.title{
+    
+   font-size:45px;
+    
+}
+
+#songs a{
+   color:black;
+   padding-bottom: 20px;
+   float: left;
+   text-decoration: none;
+   
+}
+
+#songs a:hover{
+    
+    color:purple;
+
+}
+
+.def1{
+    background-color: saddlebrown;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
