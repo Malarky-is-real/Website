@@ -1,3 +1,42 @@
+let mode = true;
+document.getElementById('Dark').onclick = function level() {
+
+    console.log(mode)
+    mode = !mode;
+    if (document.getElementById('Dark').onclick && mode === true) {
+
+        document.getElementById('every').style = "Background-Color: white";
+
+
+    }
+
+    if (document.getElementById('Dark').onclick && mode === false) {
+
+        document.getElementById('every').style = "Background-Color: black";
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 //var, let, and cons are the same thing but you should use let and cons.
 //let, lets you reassign values.
 //always use const unless you plan to reassign a value such as scores should be let.
@@ -41,7 +80,7 @@ console.log(s.split(''))
 
 //Arrays - variables that hold multiple values in one array
 /* multi 
-line comment */
+line comment 
 
 const fruits = ['apples', 'oranges', 'pears', 10, true];
 //arrays are 0 based
@@ -154,3 +193,4 @@ let q = "What is 5 + 10?";
    alert("Are you ready for freddy?"); 
  }
 
+*/

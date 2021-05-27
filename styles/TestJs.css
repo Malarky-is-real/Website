@@ -1,0 +1,56 @@
+html {
+    font-family: 'Agency FB';
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+#main-head {
+    background-color: dimgray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family:'Agency FB';
+}
+
+#Navbar{
+    width: 100%;
+    background-color: lightslategrey;
+    color:black;
+}
+
+#Navbar a {
+    float: left;
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+    text-decoration: none;
+    
+
+}
+
+#Navbar a#Dark{
+    float:right;
+}
+
+#Navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#alert tests {
+    align-content: center;
+}
