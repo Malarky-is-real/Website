@@ -64,9 +64,10 @@ document.getElementById('Dark').onclick = function level() {
 //Date
 
 var a = new Date();
+a.setHours(a.getHours())
 console.log(a.getHours());
-a.setHours(10);
-if (a.getHours() >= 0 || a.getHours() <= 21 && a.getHours() < 6 ) {
+
+if (a.getHours() >= 21 || a.getHours() < 6 ) {
     console.log('night');
     document.getElementById('every').style = "Background-Color: black";
     document.getElementById('row').style = "Background-Color: black";
@@ -83,7 +84,9 @@ if (a.getHours() >= 0 || a.getHours() <= 21 && a.getHours() < 6 ) {
     mode = false;
 }
 
-else {
+else
+
+{
 
     console.log('day');
     document.getElementById('every').style = "Background-Color: white";
@@ -103,11 +106,6 @@ else {
 
 var d = new Date();
 document.getElementById("date").innerHTML = d.getDay();
-
-
-
-
-
 
 switch (new Date().getDay())
 {

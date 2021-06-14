@@ -1,0 +1,38 @@
+﻿body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+header {
+    background-color: dimgray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px pink;
+}
+
+#Navbar {
+    width: 100%;
+    background-color: lightslategrey;
+    color: black;
+}
+
+#Navbar a {
+    float: left;
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+ }
+
+
+#Navbar a:hover {
+    color: black;
+    background-color: white;
+}
