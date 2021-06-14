@@ -65,8 +65,8 @@ document.getElementById('Dark').onclick = function level() {
 
 var a = new Date();
 console.log(a.getHours());
-
-if (and = (a.getHours() >= 0 && a.getHours() <= 6)) {
+a.setHours(10);
+if (a.getHours() >= 0 || a.getHours() <= 21 && a.getHours() < 6 ) {
     console.log('night');
     document.getElementById('every').style = "Background-Color: black";
     document.getElementById('row').style = "Background-Color: black";
@@ -98,7 +98,6 @@ else {
     document.getElementById('Dark').innerHTML = "Dark";
     mode = true;
 
-
 }
 
 
@@ -108,39 +107,35 @@ document.getElementById("date").innerHTML = d.getDay();
 
 
 
-if (d.getDay() == 1) {
-    document.getElementById("date").innerHTML = "Monday";
 
+
+switch (new Date().getDay())
+{
+    case 0:
+        document.getElementById("date").innerHTML = "Sunday";
+        break;
+
+    case 1:
+        document.getElementById("date").innerHTML = "Monday";
+        break;
+    case 2:
+
+        document.getElementById("date").innerHTML = "Tuesday";
+        break;
+
+    case 3:
+        document.getElementById("date").innerHTML = "Wednesday";
+        break;
+
+    case 4:
+        document.getElementById("date").innerHTML = "Thursday";
+        break;
+
+    case 5:
+        document.getElementById("date").innerHTML = "Friday";
+        break;
+
+    case 6:
+        document.getElementById("date").innerHTML = "Saturday";
+        break;
 }
-
-if (d.getDay() == 2) {
-    document.getElementById("date").innerHTML = "Tuesday";
-
-}
-
-if (d.getDay() == 3) {
-    document.getElementById("date").innerHTML = "Wednesday";
-
-}
-
-if (d.getDay() == 4) {
-    document.getElementById("date").innerHTML = "Thursday";
-
-}
-
-if (d.getDay() == 5) {
-    document.getElementById("date").innerHTML = "Los Panchos Friday!";
-
-}
-
-if (d.getDay() == 6) {
-    document.getElementById("date").innerHTML = "Saturday";
-
-}
-
-if (d.getDay() == 7) {
-    document.getElementById("date").innerHTML = "Sunday";
-
-}
-
-
