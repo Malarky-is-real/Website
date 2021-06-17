@@ -22,41 +22,36 @@ body{
 }
 
 
-#mode{
-
-    cursor:pointer;
-
-}
-
+/* Navagation */
 #Navbar {
+    width: 100%;
     background-color: lightslategrey;
+    color:black;
 }
 
-    #Navbar ul {
-        padding: 0;
-        list-style: none;
-    }
+#Navbar a {
+    float: left;
+    
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    
+    text-decoration: none;
+    
 
-    #Navbar li {
-        display: inline;
-        padding: 0px;
-    }
+}
 
-    #Navbar a {
-        color: #2c333a;
-        text-decoration: none;
-        font-size: 18px;
-        word-spacing: 20px;
-        padding: 30px;
-        width: 100%;
-        white-space: nowrap;
-        float: initial;
-    }
+#Navbar a#Dark{
+    float:right;
+}
 
- #Navbar a:hover {
-      color: black;
-      background-color: white;
- }
+#Navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+
 
 .Text{
     
@@ -187,17 +182,7 @@ body{
 }
 
 .anim {
-    position:absolute;
-    width:227px;
-    height:143px;
-    background: transparent url("file:///C:/Users/Anthony/Desktop/Website/web-projects/test-site/images/animimg.png") 0 0;
-    transform: translate(300px, -194px);
-    animation: anim1 3s steps(20) infinite;
-}
-
-@keyframes anim1
-{
-    100%{
-        background-position: -4540px, 0
-    }
+    position: absolute;
+    transform: translate(400px, 9px);
+    animation: anim1 1s steps(10) infinite;
 }
