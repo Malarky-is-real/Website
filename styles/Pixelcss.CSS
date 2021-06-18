@@ -125,6 +125,8 @@ body{
 }
 
 
+
+
 .Home img:hover {
     
     background-color: lightslategrey;
@@ -156,6 +158,16 @@ body{
 
 }
 
+.imate a{
+    text-decoration:none;
+    outline:none;
+}
+
+.imate a:active{
+    text-decoration:none;
+    outline:none;
+}
+
 .People a{
     margin:45px;
     text-decoration: underline;
@@ -185,4 +197,15 @@ body{
     position: absolute;
     transform: translate(400px, 9px);
     animation: anim1 1s steps(10) infinite;
+}
+
+#arch img
+{
+ 
+ 
+    transform:translate(450px, 9px);
+
+    width: 240px;
+ 
+    height: 200px;
 }

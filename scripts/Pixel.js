@@ -27,16 +27,24 @@ document.getElementById('Dark').onclick = function level() {
     mode = !mode;
     if (document.getElementById('Dark').onclick && mode === true) {
 
-        document.getElementById('every').style = "Background-color: black";
-        document.getElementById('every').style = "color: #696969";
-        document.getElementById('Dark').innerHTML = "Dark";
+        document.getElementById('every').style.backgroundColor = "black";
+        document.getElementById('every').style.color = "#696969";
+        document.getElementById('Main-head').style.backgroundColor = "#2B2B2B";
+        document.getElementById('Main-head').style.color = "#696969";
+        document.getElementById('Navbar').style.backgroundColor = "#303030";
+        document.getElementById('Navbar').style.color = "black";
+        document.getElementById('Dark').innerHTML = "Light";
 
     }
 
     if (document.getElementById('Dark').onclick && mode === false) {
 
-        document.getElementById('every').style = "Background-color: white";
-        document.getElementById('every').style = "color: black";
+        document.getElementById('every').style.backgroundColor = "white";
+        document.getElementById('every').style.color = "black";
+        document.getElementById('Main-head').style.backgroundColor = "dimgray";
+        document.getElementById('Main-head').style.color = "black";
+        document.getElementById('Navbar').style.backgroundColor = "lightslategrey";
+        document.getElementById('Navbar').style.color = "black";
         document.getElementById('Dark').innerHTML = "Light";
 
     }
@@ -53,7 +61,11 @@ if (a.getHours() >= 21 || a.getHours() < 6) {
 
     console.log('night');
     document.getElementById('every').style.backgroundColor = "black";
-    document.getElementById('every').style.color ="#696969";
+    document.getElementById('every').style.color = "#696969";
+    document.getElementById('Main-head').style.backgroundColor = "#2B2B2B";
+    document.getElementById('Main-head').style.color = "#696969";
+    document.getElementById('Navbar').style.backgroundColor = "#303030";
+    document.getElementById('Navbar').style.color = "black";
     document.getElementById('Dark').innerHTML = "Light";
     mode = true;
 }
