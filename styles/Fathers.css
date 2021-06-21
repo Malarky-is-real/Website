@@ -1,0 +1,107 @@
+﻿
+html{
+    margin:0;
+    font-family:'bangers' ;
+    width: 600px;
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2F2fvOhnO.png&f=1&nofb=1);
+    background-size: cover;
+    color: white;
+    height:auto;
+    margin: 0;
+}
+
+#page1 
+{
+    
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+    border: dashed;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#title
+{
+ 
+    margin-top:0px;
+    margin-bottom:0;
+
+}
+
+#title, #title2{
+    background-color:red;
+    color:white;
+    text-shadow:1px black;
+}
+
+#title2{
+   
+    margin:0;
+
+}
+
+#page1 h1 {
+    color: black;
+    width: 120px;
+    position: absolute;
+    left: 646px;
+    top: 230px;
+    transform: rotate(40deg);
+    z-index: 3;
+}
+
+#group 
+{
+    color:black;
+    margin:0px;   
+    position: center;
+    width: 600px;
+    background-color:lightblue;
+   
+    z-index: 4;
+}
+
+.imgoverimg
+{
+
+   position: relative;
+
+}
+
+
+#text {
+    position:absolute;
+    width: 230px;
+    height: 153.25px;
+    left: 270px;
+    top: 140px;
+    transform:rotate(40deg)
+}
+
+#page2 {
+    display: inline-block;
+    background-color: white;
+    margin-top:100px;
+    font-family:'Times New Roman';
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 600px;
+    color: black;
+    
+}
+
+#Text
+{
+
+    text-align:center;
+
+}
+
+#Text p
+{
+    margin-top: 70px;
+}
