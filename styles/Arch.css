@@ -1,0 +1,17 @@
+﻿html {
+    max-width: 1136px;
+    max-height: 642.933px;
+}
+
+body {
+    image-rendering: -moz-crisp-edges;
+    margin: 0;
+    background: black;
+    max-width: 1136px;
+    max-height: 642.933px;
+}
+
+#back img {
+    width: 1262.8px;
+    height: 642.933px;
+}
