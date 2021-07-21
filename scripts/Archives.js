@@ -9,7 +9,7 @@ var myobj = document.getElementById("door");
 door.onclick = function()
 {
 
-    document.getElementById("img1").src = "images/Archives-Updated-Recovered2.png";
+    document.getElementById("img1").src = "images/Archives/Mainbuilding/Archives-Updated-Recovered2.png";
     myobj.remove();
     console.log("deez nut");
 }
