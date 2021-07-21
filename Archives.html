@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html>
+
 <head>
 
     <meta charset="utf-8" />
@@ -12,11 +13,26 @@
 </head>
 
 <body>
+
     <section id="back">
 
-        <img src="file:///C:/Users/Anthony/Desktop/Website/web-projects/test-site/images/Archives-Updated.png" />
+        <img id="img1" src="images/Archives-Updated.png" usemap="#mapgeneric" />
+
+        <map name="mapgeneric" id="mapgeneric">
+
+            <area alt="Door" href="javascript:replaceImage('img1', 'images/Archives-Updated-Recovered2.png', 'maphelfer')"
+                  shape="rect" id="door" coords="540,427,722,571" />
+
+            
+
+            
+
+        </map>
 
     </section>
+
+    <script src="scripts/Archives.js"></script>
+
 </body>
 
 </html>
