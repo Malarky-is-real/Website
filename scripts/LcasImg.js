@@ -1,5 +1,15 @@
 //Slide show code
 
+document.getElementById('change1').onclick = function change()
+{
+    if (document.getElementById('change1').onclick)
+    {
+
+
+
+    }
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
