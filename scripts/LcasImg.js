@@ -1,13 +1,29 @@
 //Slide show code
 
-document.getElementById('change1').onclick = function change()
+let change = true
+document.getElementById('change1').onclick = function look()
 {
-    if (document.getElementById('change1').onclick)
+    console.log(change)
+    change = !change
+    
+    if (document.getElementById('change1').onclick && change === false)
     {
 
-
-
+        document.getElementById('img1').src = "images/lucas/Man-Forward-Walk.gif";
+        document.getElementById('img2').src = "images/lucas/RSideWalkBetter.gif";
+        document.getElementById('txt1').innerHTML = "Idle";
+      
     }
+    
+    if (document.getElementById('change1').onclick && change === true)
+    {
+
+        document.getElementById('img1').src = "images/lucas/Ffacing.png";
+        document.getElementById('img2').src = "images/lucas/RFacing.png"
+        document.getElementById('txt1').innerHTML = "Walk";
+        
+    }
+    
 }
 
 var slideIndex = 1;

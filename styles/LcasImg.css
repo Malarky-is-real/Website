@@ -61,14 +61,24 @@ body {
 }
 
 .L1 {
-    width: 60px;
-    height: 156px;
+    width: 5%;
+   
     margin-left:50%;
     margin-right:50%;
 }
 
 * {
     box-sizing: border-box
+}
+
+#change1
+{
+
+    position:absolute;
+    transform:translate(645px, 180px);
+    color:black;
+    text-decoration:none;
+
 }
 
 /* Slideshow container */
