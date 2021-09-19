@@ -15,6 +15,11 @@ document.getElementById('Dark').onclick = function level() {
         document.getElementById('every').style = "Background-Color: black";
 
 
+
+    }
+
+    if (button) {
+
     }
 
 }
