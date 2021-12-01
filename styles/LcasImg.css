@@ -1,8 +1,10 @@
 
 html {
-    image-rendering:  crisp-edges;
+    image-rendering: crisp-edges;
     font-family: 'Philosopher';
-    height:500px;
+    height: 500px;
+    min-height: 500px; 
+    min-width:100%;
 }
 
 body {
@@ -21,64 +23,61 @@ body {
 }
 
 #Navbar ul {
-     padding: 0;
-     list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 #Navbar li {
-     display: inline;
-     padding: 0px;
+    display: inline;
+    padding: 0px;
 }
 
 #Navbar a {
-      color: #2c333a;
-      text-decoration: none;
-      font-size: 18px;
-      word-spacing: 20px;
-      padding: 30px;
-      width: 100%;
-      white-space: nowrap;
-      float: initial;
+    color: #2c333a;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: 20px;
+    padding: 30px;
+    width: 100%;
+    white-space: nowrap;
+    float: initial;
 }
 
 #Navbar a:hover {
-      color: black;
-      background-color: white;
+    color: black;
+    background-color: white;
 }
 
-.container{
+.container {
     overflow: hidden;
+    position: relative;
 }
 
-#about{
+#about {
     background: white;
 }
 
-.Image{
-
-    vertical-align:central;
-
+.Image {
+    vertical-align: central;
 }
 
 .L1 {
-    width: 5%;
-   
-    margin-left:50%;
-    margin-right:50%;
+    width: 17%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 
 * {
     box-sizing: border-box
 }
 
-#change1
-{
-
-    position:absolute;
-    transform:translate(645px, 180px);
-    color:black;
-    text-decoration:none;
-
+#change1 {
+    position: absolute;
+    transform: translate(645px, 180px);
+    color: black;
+    text-decoration: none;
 }
 
 /* Slideshow container */
@@ -94,48 +93,45 @@ body {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
-    position:absolute;
-    padding:16px;
-    left: 710px;
-    top: 380px;
-    width: 50px;
-    margin-top: -22px;
-  
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
+    font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    -webkit-user-select: none;
 }
-
-/* Position the "next button" to the right */
+    /* Position the "next button" to the right */
+.next {
+    left: 45%;
+    border-radius: 3px 0 0 3px;
+}
 .prev {
-    
-    left: 570px;
-
+    right: 45%;
     border-radius: 3px 0 0 3px;
 }
 
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-        background-color: rgba(0,0,0,0.8);
-    }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 
-.LR a{
-
-    left:100px;
-
+.LR a {
+    left: 100px;
 }
 
 /* Caption text */
 .text {
-    
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    
     width: 105%;
     text-align: center;
 }

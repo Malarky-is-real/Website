@@ -19,7 +19,8 @@ document.getElementById('change1').onclick = function look()
     {
 
         document.getElementById('img1').src = "images/lucas/Ffacing.png";
-        document.getElementById('img2').src = "images/lucas/RFacing.png"
+        document.getElementById('img').style = "images/lucas/LFacing.png";
+        document.getElementById('img2').src = "images/lucas/RFacing.png";
         document.getElementById('txt1').innerHTML = "Walk";
         
     }
