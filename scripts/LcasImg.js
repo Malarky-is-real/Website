@@ -19,25 +19,34 @@ document.getElementById('change1').onclick = function look()
     {
 
         document.getElementById('img1').src = "images/lucas/Ffacing.png";
-        document.getElementById('img').style = "images/lucas/LFacing.png";
         document.getElementById('img2').src = "images/lucas/RFacing.png";
+        document.getElementById('img4').style = "images/lucas/LFacing.png";
         document.getElementById('txt1').innerHTML = "Walk";
         
     }
+
+   
     
 }
-
 var slideIndex = 1;
+let SI = slideIndex;
 showSlides(slideIndex);
+
+//Changes name based on slide number
+
+
+
 
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
+  
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
+
 }
 
 function showSlides(n) {
@@ -49,7 +58,26 @@ function showSlides(n) {
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    
+    console.log(slideIndex)
     slides[slideIndex - 1].style.display = "block";
+    switch (slideIndex) {
+        case 1:
+            console.log("Lucas Facing Right")
+            document.getElementById("pov").innerHTML = "Lucas Facing Forward";
+            break;
+
+        case 2:
+            document.getElementById("pov").innerHTML = "Lucas Facing Right";
+            break;
+
+        case 3:
+            document.getElementById("pov").innerHTML = "Lucas Facing Away";
+            break;
+
+        case 4:
+            document.getElementById("pov").innerHTML = "Lucas Facing Left";
+            break;
+
+    }
 
 } 
