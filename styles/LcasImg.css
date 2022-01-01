@@ -82,10 +82,13 @@ body {
     margin-right: 50%;
 }
 #txt1 {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top:230px;
-    left:50%;
+    top: 230px;
+    left: 50%;
 }
 
 /* Slideshow container */

@@ -11,6 +11,8 @@ document.getElementById('change1').onclick = function look()
 
         document.getElementById('img1').src = "images/lucas/Man-Forward-Walk.gif";
         document.getElementById('img2').src = "images/lucas/RSideWalkBetter.gif";
+        document.getElementById("img3").src = "images/lucas/BFacing-Walk.gif";
+        document.getElementById("img4").src = "images/lucas/LFacing-Walk.gif"
         document.getElementById('txt1').innerHTML = "Idle";
       
     }
@@ -20,7 +22,9 @@ document.getElementById('change1').onclick = function look()
 
         document.getElementById('img1').src = "images/lucas/Ffacing.png";
         document.getElementById('img2').src = "images/lucas/RFacing.png";
-        document.getElementById('img4').style = "images/lucas/LFacing.png";
+        document.getElementById("img3").src = "images/lucas/BFacing.png"
+        document.getElementById('img4').src = "images/lucas/LFacing.png";
+     
         document.getElementById('txt1').innerHTML = "Walk";
         
     }

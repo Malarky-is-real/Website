@@ -11,7 +11,7 @@ function replaceImage(imgid, source, mapid) {
 
 var a = document.getElementById("home");
 
-a.href = "file:///C:/Users/Anthony/Desktop/Website/web-projects/test-site/Pixel%20Art.html";
+a.href = "file:///C:/Users/Anthony/Desktop/Website/Javascript/test-site/Pixel%20Art.html";
 
 
 
