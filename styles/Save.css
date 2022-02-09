@@ -8,13 +8,19 @@ body, html {
     max-width: 1230px;
     max-height: 1246px;
 }
-
+h2 {
+    margin-left: -150px;
+}
 #SaveImg {
     image-rendering: -moz-crisp-edges;
-    margin-left:485.6px;
-    margin-right:485.5px;
+    margin-left: -50px;
+    width: 464px;
+    height:356px;
 }
-
+#I1 {
+    margin-left: 485.6px;
+    margin-right: 485.5px;
+}
 #ItemName{
-
+    
 }

@@ -55,6 +55,7 @@ document.getElementById('entrance').onclick = function level()
 var slideIndex = 1;
 showSlides(slideIndex);
 
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -79,5 +80,25 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-} 
+  captionText.innerHTML = dots[slideIndex - 1].alt;
+  var slideMax = 6
+  document.getElementById("mySlide").innerHTML = slideIndex + "/" + slideMax;
+    
+}
+
+//Controls the images and when they show up
+
+
+
+switch (slideIndex) {
+    case 1:
+        
+        document.getElementById("imgs").innerHTML = '<img src="images/Archives/Archive/Man test Walking Backward Distraught.gif " />';
+        break;
+
+    case 2:
+        
+        document.getElementById("imgs").src ="images/Archives/Archive/Perspectives.png" ;
+        break;
+
+}
