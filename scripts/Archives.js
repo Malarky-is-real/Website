@@ -1,3 +1,4 @@
+//Front Page
 function replaceImage(imgid, source, mapid) {
     var image = document.getElementById(imgid);
     image.src = source;
@@ -12,7 +13,6 @@ function replaceImage(imgid, source, mapid) {
 var a = document.getElementById("home");
 
 a.href = "file:///C:/Users/Anthony/Desktop/Website/Javascript/test-site/Pixel%20Art.html";
-
 
 
 let click = false;
@@ -59,46 +59,54 @@ showSlides(slideIndex);
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  console.log(slideIndex)
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  captionText.innerHTML = dots[slideIndex - 1].alt;
   var slideMax = 6
-  document.getElementById("mySlide").innerHTML = slideIndex + "/" + slideMax;
+  var slideMin = 1
+  var slides = document.getElementsByClassName("mySlides");
+  if (slideIndex > slideMax) {slideIndex = 1}
+  if (slideIndex < slideMin) {slideIndex = 1}
+
+  
+  switch (slideIndex) {
+    case 1:
+      document.getElementById("imgs").innerHTML = '<img src=\'images/Archives/Archive/FollowerFightExample.png\'>';
+      document.getElementById("caption").innerHTML = "Follower Fight Example"
+      
+      
+      break;
+
+    case 2:
+      
+      document.getElementById("imgs").innerHTML = '<img src=\'images/Archives/Archive/Monster.png\'>';
+      document.getElementById("caption").innerHTML = "Lucas House "
+      console.log("Lucas")
+      break;
     
+    case 3:
+      document.getElementById("imgs").innerHTML = '<img src=\'images/Archives/Archive/LucasHouseRundown.png\'>';
+      document.getElementById("caption").innerHTML = "OilFire"
+      break;
+    case 4:
+      document.getElementById("imgs").innerHTML = '<img src=\'images/Archives/Archive/OilMatch.gif\'>';
+      document.getElementById("caption").innerHTML = "OilFire"
+      break;
+    case 5: 
+      document.getElementById("imgs").innerHTML = '<img src=\'images/Archives/Archive/MantestLookandWeirded.gif\'>'
+      document.getElementById("caption").innerHTML = "Old Lucas looking around weird"
+      break;
+    }     
+
+
+
+
+  document.getElementById("mySlide").innerHTML = slideIndex + "/" + slideMax;
+  
 }
 
 //Controls the images and when they show up
-
-
-
-switch (slideIndex) {
-    case 1:
-        
-        document.getElementById("imgs").innerHTML = '<img src="images/Archives/Archive/Man test Walking Backward Distraught.gif " />';
-        break;
-
-    case 2:
-        
-        document.getElementById("imgs").src ="images/Archives/Archive/Perspectives.png" ;
-        break;
-
-}

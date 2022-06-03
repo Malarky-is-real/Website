@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
@@ -38,16 +38,14 @@
 
         <div class="container">
             
-            <div id="images">
-                <div class="mySlides" id="imgs" >
-                    
+            <div id="images" >
+                <div class="mySlides" id="imgs" style="display: block; ">
+                    <div style="background-color:aliceblue; Opacity: 1;" > </div>
+                    <img  id="imgsmain" src=""/>
                     
                 </div>
 
-                <div class="mySlides">
-                    
-                    
-                </div>
+                
             
             </div>
 
@@ -55,39 +53,25 @@
             <a class="next" onclick="plusSlides(1);">❯</a>
 
             <div class="caption-container">
-                <p id="caption"></p>
+                <p id="caption">bruh</p>
             </div>
 
             <div class="row">
                 
                 <div class="column">
-                    <img class="demo " alt="Old Lucas">
-                    <div class="numbertext" id="mySlide">bruh </div>
+                    
+                    <div class="numbertext" id="mySlide"> bruh </div>
                 </div>
                 
-                <div class="column">
-                    <img class="demo "   alt="Perspectives">
-                </div>
-                
-                <div class="column">
-                    <img class="demo "    alt="Mountains and fjords">
-                </div>
-                
-                <div class="column">
-                    <img class="demo "    alt="Northern Lights">
-                </div>
-                
-                <div class="column">
-                    <img class="demo "  alt="Nature and sunrise">
-                </div>
-                
-                <div class="column">
-                    <img class="demo "    alt="Snowy Mountains">
-                </div>
-
             </div>
         </div>
+        <div id="ImgUpld"> 
+            <form action="File.php" method ="post" enctype="multipart/form-data"> 
+                <input type="file" name="myFile" id="myFile" >
+                <input type="submit" id="submit" value="upload image" name="submit">
+            </form>
 
+        </div>
     </section>
 
     <script src="scripts/Archives.js"></script>
